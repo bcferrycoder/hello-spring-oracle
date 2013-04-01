@@ -1,7 +1,7 @@
 Spring Sample
 =============
 
-This is a Java sample using the Spring framework and a MySQL service.
+This is a Java sample using the Spring framework and an external Oracle service.
 
 Building the Application
 ------------------------
@@ -24,7 +24,7 @@ Then, *cd* into the root directory and execute:
 
 	mvn clean package
 
-That will create the *hello-java-1.0.war* file within the 'target' directory.
+This will create the *hello-spring-oracle.war file within the 'target' directory.
 
 Deploying the Application
 -------------------------
@@ -35,7 +35,7 @@ Then execute:
 
 	stackato push -n 
 	
-Notice that it detected the app type as "Java Web Application".
+Notice that it detected the app type as "Spring".
 
 Then go on your application url.
 

@@ -1,8 +1,8 @@
 ---
 applications:
   target:
-    name: hello-spring-mysql
+    name: hello-spring-oracle
     mem: 512M
     services:
-      mysql-spring:
-        type: mysql
+      oracle-spring:
+        type: oracledb
